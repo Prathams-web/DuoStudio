@@ -138,15 +138,25 @@ boxes.forEach((elem) => {
 var h4 = document.querySelectorAll("#nav h4");
 var purple = document.querySelector("#purple");
 
-h4.forEach(function(elem) {
+h4.forEach(function(elem, idx) {
   elem.addEventListener("mouseenter", function() {
     purple.style.display = "block";
     purple.style.opacity = "1";
+    
   })
   elem.addEventListener("mouseleave", function() {
     purple.style.display = "none";
     purple.style.opacity = "0";
   })
 })
+
+
+function showMarquee(id) {
+  document.getElementById(id).style.display = 'block';
+}
+
+function hideMarquee(id) {
+  document.getElementById(id).style.display = 'none';
+}
 
 
