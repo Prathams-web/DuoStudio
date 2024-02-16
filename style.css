@@ -68,29 +68,6 @@ body {
 }
 
 
-/* @keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-} */
-
-
-/* .marquee {
-  position: absolute;
-  white-space: nowrap;
-  -webkit-animation: rightThenLeft 4s linear;
-}
-
-@-webkit-keyframes rightThenLeft {
-  0%   {left: 0%;}
-  50%  {left: 100%;}
-  100% {left: 0%;}
-} */
-
-
 
 .cursor{
   height: 20px;
